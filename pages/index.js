@@ -275,17 +275,20 @@ export default function Home() {
                                 {
                                     title: 'Job Seekers',
                                     description: 'Stand out with verifiable blockchain skills. Share your credential NFT directly with recruiters.',
-                                    cta: 'Prove your skills'
+                                    cta: 'Prove your skills',
+                                    href: '/dashboard'
                                 },
                                 {
                                     title: 'Employers',
                                     description: 'Instantly verify candidate skills on-chain. No fake certificates, no background check delays.',
-                                    cta: 'Verify credentials'
+                                    cta: 'Verify credentials',
+                                    href: '/verify'
                                 },
                                 {
                                     title: 'Educators',
                                     description: 'Issue immutable certificates to your students. Track completion in a transparent way.',
-                                    cta: 'Partner with us'
+                                    cta: 'Partner with us',
+                                    href: 'https://github.com/shubhwade/SkillChain'
                                 }
                             ].map((useCase, i) => (
                                 <motion.div
@@ -294,7 +297,14 @@ export default function Home() {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     viewport={{ once: true }}
                                     transition={{ delay: i * 0.1 }}
-                                    className="card p-8 text-center"
+                                    className="card p-8 text-center hover:border-accent-600/50 transition-all cursor-pointer"
+                                    onClick={() => {
+                                        if (useCase.href.startsWith('http')) {
+                                            window.open(useCase.href, '_blank');
+                                        } else {
+                                            window.location.href = useCase.href;
+                                        }
+                                    }}
                                 >
                                     <h3 className="text-xl font-semibold text-white mb-3">
                                         {useCase.title}
@@ -302,7 +312,7 @@ export default function Home() {
                                     <p className="text-neutral-400 mb-6 leading-relaxed">
                                         {useCase.description}
                                     </p>
-                                    <span className="text-accent-500 text-sm font-medium">
+                                    <span className="text-accent-500 text-sm font-medium hover:text-accent-400 transition-colors">
                                         {useCase.cta} →
                                     </span>
                                 </motion.div>

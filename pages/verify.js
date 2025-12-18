@@ -82,15 +82,25 @@ export default function Verify() {
                             </button>
                         </div>
 
-                        {isDemoMode() && (
-                            <button
-                                type="button"
-                                onClick={() => setAddress(DEMO_WALLET)}
-                                className="mt-3 text-xs text-accent-500 hover:text-accent-400"
-                            >
-                                Use demo wallet
-                            </button>
-                        )}
+                        {/* Demo wallet helper */}
+                        <div className="mt-4 p-4 bg-dark-800/50 rounded-lg border border-dark-700">
+                            <p className="text-xs text-neutral-500 mb-2">Try with demo wallet:</p>
+                            <div className="flex items-center gap-2">
+                                <code className="flex-1 text-xs font-mono text-accent-400 bg-dark-900 px-3 py-2 rounded select-all">
+                                    {DEMO_WALLET}
+                                </code>
+                                <button
+                                    type="button"
+                                    onClick={() => {
+                                        navigator.clipboard.writeText(DEMO_WALLET);
+                                        setAddress(DEMO_WALLET);
+                                    }}
+                                    className="px-3 py-2 bg-accent-600/20 text-accent-500 text-xs rounded hover:bg-accent-600/30 transition-colors"
+                                >
+                                    Copy & Use
+                                </button>
+                            </div>
+                        </div>
                     </motion.form>
 
                     {/* Error */}
