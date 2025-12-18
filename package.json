@@ -1,0 +1,31 @@
+{
+  "name": "skillchain",
+  "version": "1.0.0",
+  "description": "AI-evaluated, blockchain-verified skill credentials (Proof-of-Learning)",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "demo": "cross-env NEXT_PUBLIC_DEMO_MODE=true next dev",
+    "compile": "npx hardhat compile",
+    "deploy:mumbai": "npx hardhat run scripts/deploy.js --network mumbai",
+    "deploy:mock": "node scripts/mockDeploy.js"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.16.16",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
+    "@openzeppelin/contracts": "^5.0.1",
+    "hardhat": "^2.19.4",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}

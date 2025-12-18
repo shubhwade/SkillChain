@@ -1,0 +1,515 @@
+{
+    "blockchain-basics": {
+        "id": "blockchain-basics",
+        "title": "Blockchain Basics",
+        "question": "Explain what a blockchain is, how it works, and why it is considered secure and immutable. Include key concepts like distributed ledger, consensus mechanisms, and nodes.",
+        "difficulty": "Easy",
+        "time": "5 min",
+        "category": "Fundamentals",
+        "icon": "BC",
+        "keyphrases": [
+            {
+                "text": "distributed ledger",
+                "weight": 15,
+                "synonyms": [
+                    "decentralized ledger",
+                    "shared ledger"
+                ]
+            },
+            {
+                "text": "immutable",
+                "weight": 15,
+                "synonyms": [
+                    "unchangeable",
+                    "tamper-proof",
+                    "cannot be modified"
+                ]
+            },
+            {
+                "text": "consensus",
+                "weight": 15,
+                "synonyms": [
+                    "agreement",
+                    "consensus mechanism",
+                    "proof of"
+                ]
+            },
+            {
+                "text": "nodes",
+                "weight": 10,
+                "synonyms": [
+                    "computers",
+                    "participants",
+                    "network nodes"
+                ]
+            },
+            {
+                "text": "blocks",
+                "weight": 10,
+                "synonyms": [
+                    "block",
+                    "chain of blocks"
+                ]
+            },
+            {
+                "text": "cryptographic",
+                "weight": 10,
+                "synonyms": [
+                    "hash",
+                    "hashing",
+                    "encrypted",
+                    "cryptography"
+                ]
+            },
+            {
+                "text": "decentralized",
+                "weight": 10,
+                "synonyms": [
+                    "no central authority",
+                    "peer-to-peer",
+                    "p2p"
+                ]
+            },
+            {
+                "text": "transaction",
+                "weight": 5,
+                "synonyms": [
+                    "transactions",
+                    "transfer"
+                ]
+            }
+        ],
+        "passThreshold": 60,
+        "maxScore": 100
+    },
+    "smart-contracts": {
+        "id": "smart-contracts",
+        "title": "Smart Contracts",
+        "question": "Describe what smart contracts are, how they execute on a blockchain, and provide an example use case. Explain the benefits and potential risks of using smart contracts.",
+        "difficulty": "Medium",
+        "time": "7 min",
+        "category": "Development",
+        "icon": "SC",
+        "keyphrases": [
+            {
+                "text": "self-executing",
+                "weight": 15,
+                "synonyms": [
+                    "automated",
+                    "automatically execute"
+                ]
+            },
+            {
+                "text": "code",
+                "weight": 10,
+                "synonyms": [
+                    "program",
+                    "programming",
+                    "written in code"
+                ]
+            },
+            {
+                "text": "conditions",
+                "weight": 10,
+                "synonyms": [
+                    "rules",
+                    "logic",
+                    "if-then"
+                ]
+            },
+            {
+                "text": "ethereum",
+                "weight": 10,
+                "synonyms": [
+                    "solidity",
+                    "evm",
+                    "blockchain platform"
+                ]
+            },
+            {
+                "text": "trustless",
+                "weight": 10,
+                "synonyms": [
+                    "no intermediary",
+                    "without middleman"
+                ]
+            },
+            {
+                "text": "immutable",
+                "weight": 10,
+                "synonyms": [
+                    "cannot be changed",
+                    "permanent"
+                ]
+            },
+            {
+                "text": "gas",
+                "weight": 5,
+                "synonyms": [
+                    "gas fees",
+                    "transaction fee"
+                ]
+            },
+            {
+                "text": "bugs",
+                "weight": 5,
+                "synonyms": [
+                    "vulnerabilities",
+                    "security risks",
+                    "exploits"
+                ]
+            },
+            {
+                "text": "defi",
+                "weight": 5,
+                "synonyms": [
+                    "decentralized finance",
+                    "lending",
+                    "nft"
+                ]
+            }
+        ],
+        "passThreshold": 60,
+        "maxScore": 100
+    },
+    "defi-fundamentals": {
+        "id": "defi-fundamentals",
+        "title": "DeFi Fundamentals",
+        "question": "Explain what Decentralized Finance (DeFi) is and how it differs from traditional finance. Describe at least two DeFi applications and their benefits.",
+        "difficulty": "Hard",
+        "time": "10 min",
+        "category": "Finance",
+        "icon": "DF",
+        "keyphrases": [
+            {
+                "text": "decentralized finance",
+                "weight": 15,
+                "synonyms": [
+                    "defi",
+                    "open finance"
+                ]
+            },
+            {
+                "text": "no intermediaries",
+                "weight": 12,
+                "synonyms": [
+                    "permissionless",
+                    "trustless",
+                    "peer-to-peer"
+                ]
+            },
+            {
+                "text": "lending",
+                "weight": 10,
+                "synonyms": [
+                    "borrowing",
+                    "loans",
+                    "aave",
+                    "compound"
+                ]
+            },
+            {
+                "text": "liquidity",
+                "weight": 10,
+                "synonyms": [
+                    "liquidity pool",
+                    "amm",
+                    "automated market maker"
+                ]
+            },
+            {
+                "text": "yield",
+                "weight": 8,
+                "synonyms": [
+                    "yield farming",
+                    "staking",
+                    "interest"
+                ]
+            },
+            {
+                "text": "swap",
+                "weight": 8,
+                "synonyms": [
+                    "exchange",
+                    "dex",
+                    "uniswap",
+                    "trading"
+                ]
+            },
+            {
+                "text": "smart contracts",
+                "weight": 10,
+                "synonyms": [
+                    "protocols",
+                    "on-chain"
+                ]
+            },
+            {
+                "text": "transparent",
+                "weight": 7,
+                "synonyms": [
+                    "open",
+                    "auditable",
+                    "verifiable"
+                ]
+            },
+            {
+                "text": "risks",
+                "weight": 5,
+                "synonyms": [
+                    "impermanent loss",
+                    "smart contract risk",
+                    "volatility"
+                ]
+            }
+        ],
+        "passThreshold": 55,
+        "maxScore": 100
+    },
+    "nft-concepts": {
+        "id": "nft-concepts",
+        "title": "NFT Concepts",
+        "question": "Explain what NFTs (Non-Fungible Tokens) are, how they work on the blockchain, and describe at least two real-world use cases beyond digital art.",
+        "difficulty": "Easy",
+        "time": "5 min",
+        "category": "Tokens",
+        "icon": "NF",
+        "keyphrases": [
+            {
+                "text": "non-fungible",
+                "weight": 15,
+                "synonyms": [
+                    "unique",
+                    "one of a kind",
+                    "not interchangeable"
+                ]
+            },
+            {
+                "text": "token",
+                "weight": 10,
+                "synonyms": [
+                    "digital token",
+                    "cryptocurrency token"
+                ]
+            },
+            {
+                "text": "ownership",
+                "weight": 12,
+                "synonyms": [
+                    "proof of ownership",
+                    "digital ownership",
+                    "verifiable ownership"
+                ]
+            },
+            {
+                "text": "erc-721",
+                "weight": 10,
+                "synonyms": [
+                    "erc721",
+                    "nft standard",
+                    "ethereum token"
+                ]
+            },
+            {
+                "text": "metadata",
+                "weight": 8,
+                "synonyms": [
+                    "properties",
+                    "attributes",
+                    "traits"
+                ]
+            },
+            {
+                "text": "marketplace",
+                "weight": 8,
+                "synonyms": [
+                    "opensea",
+                    "trading",
+                    "buying",
+                    "selling"
+                ]
+            },
+            {
+                "text": "gaming",
+                "weight": 8,
+                "synonyms": [
+                    "games",
+                    "in-game items",
+                    "virtual assets"
+                ]
+            },
+            {
+                "text": "collectibles",
+                "weight": 7,
+                "synonyms": [
+                    "digital art",
+                    "music",
+                    "tickets",
+                    "real estate"
+                ]
+            }
+        ],
+        "passThreshold": 60,
+        "maxScore": 100
+    },
+    "crypto-wallets": {
+        "id": "crypto-wallets",
+        "title": "Crypto Wallets",
+        "question": "Explain what cryptocurrency wallets are, the difference between hot and cold wallets, and describe key security practices for protecting your crypto assets.",
+        "difficulty": "Easy",
+        "time": "5 min",
+        "category": "Security",
+        "icon": "CW",
+        "keyphrases": [
+            {
+                "text": "private key",
+                "weight": 15,
+                "synonyms": [
+                    "secret key",
+                    "private keys",
+                    "signing key"
+                ]
+            },
+            {
+                "text": "public key",
+                "weight": 10,
+                "synonyms": [
+                    "address",
+                    "wallet address",
+                    "public address"
+                ]
+            },
+            {
+                "text": "hot wallet",
+                "weight": 12,
+                "synonyms": [
+                    "online wallet",
+                    "software wallet",
+                    "connected"
+                ]
+            },
+            {
+                "text": "cold wallet",
+                "weight": 12,
+                "synonyms": [
+                    "hardware wallet",
+                    "offline",
+                    "ledger",
+                    "trezor"
+                ]
+            },
+            {
+                "text": "seed phrase",
+                "weight": 10,
+                "synonyms": [
+                    "recovery phrase",
+                    "mnemonic",
+                    "backup phrase",
+                    "12 words"
+                ]
+            },
+            {
+                "text": "security",
+                "weight": 8,
+                "synonyms": [
+                    "protect",
+                    "safe",
+                    "secure"
+                ]
+            },
+            {
+                "text": "custodial",
+                "weight": 8,
+                "synonyms": [
+                    "non-custodial",
+                    "self-custody",
+                    "your keys"
+                ]
+            }
+        ],
+        "passThreshold": 60,
+        "maxScore": 100
+    },
+    "consensus-mechanisms": {
+        "id": "consensus-mechanisms",
+        "title": "Consensus Mechanisms",
+        "question": "Compare Proof of Work (PoW) and Proof of Stake (PoS) consensus mechanisms. Explain how each works, their advantages, and disadvantages.",
+        "difficulty": "Medium",
+        "time": "8 min",
+        "category": "Technology",
+        "icon": "CM",
+        "keyphrases": [
+            {
+                "text": "proof of work",
+                "weight": 15,
+                "synonyms": [
+                    "pow",
+                    "mining",
+                    "computational work"
+                ]
+            },
+            {
+                "text": "proof of stake",
+                "weight": 15,
+                "synonyms": [
+                    "pos",
+                    "staking",
+                    "validators"
+                ]
+            },
+            {
+                "text": "mining",
+                "weight": 10,
+                "synonyms": [
+                    "miners",
+                    "hash power",
+                    "solving puzzles"
+                ]
+            },
+            {
+                "text": "validators",
+                "weight": 10,
+                "synonyms": [
+                    "stakers",
+                    "node operators"
+                ]
+            },
+            {
+                "text": "energy",
+                "weight": 10,
+                "synonyms": [
+                    "electricity",
+                    "power consumption",
+                    "environmental"
+                ]
+            },
+            {
+                "text": "security",
+                "weight": 8,
+                "synonyms": [
+                    "51% attack",
+                    "network security"
+                ]
+            },
+            {
+                "text": "decentralization",
+                "weight": 8,
+                "synonyms": [
+                    "distributed",
+                    "centralization risk"
+                ]
+            },
+            {
+                "text": "ethereum",
+                "weight": 5,
+                "synonyms": [
+                    "bitcoin",
+                    "eth 2.0",
+                    "the merge"
+                ]
+            }
+        ],
+        "passThreshold": 60,
+        "maxScore": 100
+    }
+}

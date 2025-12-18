@@ -1,0 +1,38 @@
+{
+  "credentials": [
+    {
+      "tokenId": 1,
+      "wallet": "0xDEMO000000000000000000000000000000000001",
+      "skillId": "blockchain-basics",
+      "skillTitle": "Blockchain Basics",
+      "score": 95,
+      "metadataURI": "ipfs://QmDEMO_BlockchainBasics_001",
+      "txHash": "0xDEMO_TX_001_BLOCKCHAIN_BASICS_CREDENTIAL",
+      "issuedAt": "2025-12-18T10:00:00Z",
+      "verificationHash": "sha256:demo_verification_001"
+    },
+    {
+      "tokenId": 2,
+      "wallet": "0xDEMO000000000000000000000000000000000001",
+      "skillId": "smart-contracts",
+      "skillTitle": "Smart Contracts",
+      "score": 88,
+      "metadataURI": "ipfs://QmDEMO_SmartContracts_002",
+      "txHash": "0xDEMO_TX_002_SMART_CONTRACTS_CREDENTIAL",
+      "issuedAt": "2025-12-18T11:30:00Z",
+      "verificationHash": "sha256:demo_verification_002"
+    },
+    {
+      "tokenId": 101,
+      "wallet": "0xDEMO000000000000000000000000000000000001",
+      "skillId": "nft-concepts",
+      "skillTitle": "NFT Concepts",
+      "score": 95,
+      "metadataURI": "ipfs://QmDEMO_NFT-CONCEPTS_mjbbmyuh",
+      "txHash": "0XDEMO_19B311700E9_FED152AF",
+      "issuedAt": "2025-12-18T10:52:29.829Z",
+      "verificationHash": "sha256:nft-concepts_101_19b31170105"
+    }
+  ],
+  "nextTokenId": 102
+}
