@@ -90,8 +90,26 @@ export default function AiTerminal({ evaluation, isLoading }) {
                                 </div>
                                 <div className="text-neutral-500 mt-1">out of 100</div>
 
-                                <div className={`inline-block mt-4 badge ${evaluation.pass ? 'badge-success' : 'badge-danger'}`}>
-                                    {evaluation.pass ? 'Passed' : 'Not Passed'}
+                                <div className="flex items-center justify-center gap-2 mt-4">
+                                    <div className={`badge ${evaluation.pass ? 'badge-success' : 'badge-danger'}`}>
+                                        {evaluation.pass ? 'Passed' : 'Not Passed'}
+                                    </div>
+
+                                    {/* AI Detection Badge */}
+                                    {evaluation.aiDetection && (
+                                        <div className={`badge ${evaluation.aiDetection.verdict === 'ai_generated'
+                                                ? 'bg-red-500/20 text-red-400 border-red-500/30'
+                                                : evaluation.aiDetection.verdict === 'suspicious'
+                                                    ? 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30'
+                                                    : 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30'
+                                            }`}>
+                                            {evaluation.aiDetection.verdict === 'ai_generated'
+                                                ? `🤖 AI Detected (${evaluation.aiDetection.confidence}%)`
+                                                : evaluation.aiDetection.verdict === 'suspicious'
+                                                    ? `⚡ ${evaluation.aiDetection.confidence}% AI`
+                                                    : '✓ Human Written'}
+                                        </div>
+                                    )}
                                 </div>
                             </div>
 
